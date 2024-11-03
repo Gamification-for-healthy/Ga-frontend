@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="animation" style="--i: 0; --j: 20">Register</h2>
+      <form class="register-form">
+        <div class="input-box animation" style="--i: 1; --j: 22">
+          <input type="text" name="username" required />
+          <label>Username</label>
+          <i class="bx bxs-user"></i>
+        </div>
+        <div class="input-box animation" style="--i: 2; --j: 23">
+          <input type="email" name="email" required />
+          <label>Email</label>
+          <i class="bx bxs-envelope"></i>
+        </div>
+        <div class="input-box animation" style="--i: 3; --j: 24">
+          <input type="password" name="password" required />
+          <label>Password</label>
+          <i class="bx bx-lock-alt"></i>
+        </div>
+        <div class="input-box animation" style="--i: 4; --j: 25">
+          <input type="password" name="confirmPassword" required />
+          <label>Confirm Password</label>
+          <i class="bx bx-lock-alt"></i>
+        </div>
+        <button type="submit" class="btn-animation" style="--i: 5; --j: 26">
+          Register
+        </button>
+      </form>
+      <div class="linktxt animation" style="--i: 6; --j: 27">
+        <p>
+          Already have an account?
+          <a href="login.html" class="login-link">Login</a>
+        </p>
+      </div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="auth.js"></script>
+  </body>
+</html>
